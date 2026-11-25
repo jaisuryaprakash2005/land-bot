@@ -1,0 +1,113 @@
+{
+  "_help": "Edit this file to change settings. Restart start.ps1 after saving.",
+  "ollama_url": "http://localhost:11434",
+  "ollama_model": "llama3.1:8b",
+  "whisper_model": "small",
+  "whisper_task": "translate",
+  "whisper_hint": "Land offer near Chengalpattu, Tambaram, Padappai, Sriperumbudur, Maduranthakam, Thiruporur, Guduvanchery, Oragadam, Perumbakkam, Nelvoy, Athimanam, Alanjeri, Illalur, Palayanur. Mediator Murugan, Kumuda, Kupan. Price 80 lakhs per acre, 1.75 crore, 6,50,000 per cent. Patta, DTCP, CMDA, GST road, ECR, OMR, frontage, dry land, wet land.",
+  "excel": {
+    "table_name": "Properties",
+    "onedrive_workbook_path": "Land_Acquisition.xlsx"
+  },
+  "microsoft_login": {
+    "client_id": "PASTE-YOUR-APPLICATION-CLIENT-ID-HERE",
+    "authority": "https://login.microsoftonline.com/common"
+  },
+  "status_options": [
+    "Prospect",
+    "Site visit",
+    "Negotiation",
+    "Documents check",
+    "Rejected",
+    "Closed"
+  ],
+  "default_status": "Prospect",
+  "default_source": "Mediator",
+  "columns": [
+    {
+      "key": "sno",
+      "header": "S.No",
+      "fill": "auto"
+    },
+    {
+      "key": "date",
+      "header": "Date",
+      "fill": "auto"
+    },
+    {
+      "key": "exact_area",
+      "header": "Exact area",
+      "fill": "ai"
+    },
+    {
+      "key": "source",
+      "header": "Source",
+      "fill": "ai"
+    },
+    {
+      "key": "mediator_name",
+      "header": "Name of the Mediator",
+      "fill": "ai"
+    },
+    {
+      "key": "number",
+      "header": "Number",
+      "fill": "ai"
+    },
+    {
+      "key": "extent",
+      "header": "Extent",
+      "fill": "ai"
+    },
+    {
+      "key": "cost_per_acre",
+      "header": "Cost per acres",
+      "fill": "ai"
+    },
+    {
+      "key": "status",
+      "header": "Status",
+      "fill": "you"
+    },
+    {
+      "key": "land_category",
+      "header": "Land category",
+      "fill": "ai"
+    },
+    {
+      "key": "road_width",
+      "header": "Road width",
+      "fill": "ai"
+    },
+    {
+      "key": "frontage",
+      "header": "Frontage",
+      "fill": "ai"
+    },
+    {
+      "key": "land_level",
+      "header": "Land level from the road",
+      "fill": "ai"
+    },
+    {
+      "key": "negative",
+      "header": "Negative",
+      "fill": "ai"
+    },
+    {
+      "key": "previlling",
+      "header": "Previlling",
+      "fill": "you"
+    },
+    {
+      "key": "status2",
+      "header": "Status",
+      "fill": "you"
+    },
+    {
+      "key": "google_pin",
+      "header": "Google pin",
+      "fill": "ai"
+    }
+  ]
+}

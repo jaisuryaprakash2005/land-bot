@@ -1,0 +1,31 @@
+{
+  "name": "Probridge Land Bot",
+  "short_name": "Land Bot",
+  "description": "Read mediator land offers and save them to the Land Acquisition Excel sheet.",
+  "start_url": "/app/",
+  "scope": "/app/",
+  "display": "standalone",
+  "background_color": "#1f2a37",
+  "theme_color": "#1f2a37",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "share_target": {
+    "action": "/app/share",
+    "method": "POST",
+    "enctype": "multipart/form-data",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url",
+      "files": [
+        {
+          "name": "audio",
+          "accept": ["audio/*", ".opus", ".ogg", ".m4a", ".mp3", ".aac", ".wav"]
+        }
+      ]
+    }
+  }
+}
